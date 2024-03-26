@@ -1,0 +1,27 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "interface",
+    ".vscode",
+    "node_modules/nuxt-site-config/",
+    "node_modules/nuxt-site-config/dist/runtime/nuxt/component/SiteLink.vue"
+  ],
+  "verbatimModuleSyntax": true,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    // "strictNullChecks": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "baseUrl": "."
+  }
+}
